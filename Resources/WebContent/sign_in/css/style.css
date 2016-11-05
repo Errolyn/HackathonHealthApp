@@ -32,6 +32,7 @@ h2 {
 	color: #665851;
 	font-weight: 400;
 	font-size: 1.4em;
+	opacity: .9;
 	margin-bottom: 0;
 }
 
@@ -56,15 +57,18 @@ p.small {
 
 /* Layout */
 .container {
-	margin: 0;	
+	margin: 0;
+
+	margin: 0;
 	opacity: 0.9;
-	
+
 }
 
 .container_two {
-	margin: 0;	
+	margin: 0;
 	opacity: 0.9;
-	
+
+
 }
 
 
@@ -89,8 +93,8 @@ p.small {
 	border-radius: 5px;
 	box-shadow: 0 5px 50px rgba(0,0,0,0.4);
 	text-align: center;
-	
-	
+
+
 }
 
 /*.login-box .box-header {
@@ -101,7 +105,7 @@ p.small {
 
 .welcome {
 	font-size: 2em;
-	padding-top: 10px;	
+	padding-top: 10px;
 }
 
 .box_title {
@@ -115,7 +119,7 @@ p.small {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	line-height: 2em;
-	
+
 }
 
 .login-box input {
@@ -125,7 +129,7 @@ p.small {
 	border-radius: 2px;
 	font-size: .9em;
 	color: #888;
-	
+
 }
 
 .login-box input:focus {
@@ -133,7 +137,7 @@ p.small {
 	border-color: #665851;
 	transition: 0.5s;
 	color: #665851;
-	
+
 }
 
 .login-box button {
@@ -141,12 +145,15 @@ p.small {
 	border: 0;
 	border-radius: 5px;
 	color: white;
-	
+
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 0.7em;
-	
-	
+	background-color: #665851;
+	cursor:pointer;
+
+
+
 	cursor: pointer;
 	outline: none;
 
@@ -167,12 +174,12 @@ p.small {
 	color: white !important;
 }
 .login-box button:hover {
-	
+
 	transition: 0.5s;
 }
 
 .login-box button:hover {
-	
+
 	transition: 0.5s;
 }
 
@@ -192,6 +199,16 @@ p.small {
   -webkit-animation-delay: 1s;
 }
 
+
+.profile-image {
+	background-image: url("../images/girl.svg");
+	height: 300px;
+	border-radius: 200px;
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+}
+
 /*form switching*/
 /*#Box_1 {
 	visibility: visible;
@@ -200,6 +217,3 @@ p.small {
 #Box_2 {
 	visibility: hidden;
 }*/
-
-
-
