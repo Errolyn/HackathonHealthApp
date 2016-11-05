@@ -7,6 +7,7 @@
 
 	<!-- Google Fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Custom Stylesheet -->
@@ -20,8 +21,8 @@
 		<div class="top">
 			<h1 id="title" class="hidden"><span id="logo">Health Connection</span></h1>
 		</div>
-		<div class="login-box animated fadeInUp">
-			<h2 class="welcome">Welcome!</h2>
+		<div class="login-box animated fadeInUp" id="Box_1">
+			<div class="welcome"><h2>Welcome!</h2></div>
 			<h3>Want to find a group activity?</h3>
 			<p>Sign up with your email</p>
 			<input type="text" id="username" placeholder="Email">
@@ -30,11 +31,39 @@
 			<br/>
 			<input type="confirmpassword" id="confirmpassword" placeholder="Confirm Password">
 			<br/>
-			<button type="submit"><h3 class="buttontxt">SIGN UP</h3></button>
+			<button type="submit" onclick="newDiv()" class="button_color"><h3 class="buttontxt">SIGN UP</h3></button>
+
+			<br/>	
+		</div>
+		<div class="login-box animated fadeInUp" id="Box_2" style="display:none;">
+			<h3 class="box_title">Let's learn more about you!</h3>
+			<input type="text" id="First_name" placeholder="First Name">
+			<input type="text" id="Last_name" placeholder="Last Name">
+			<br/>
+			<input type="text" id="gender" placeholder="Gender">
+			<br/>
+			<input type="text" id="age" placeholder="Age">
+			<br/>
+			<button type="submit" onclick="newDiv2()" class="button_color"><h3 class="buttontxt">ONWARD!</h3></button>
 			<br/>
 			
 		</div>
+		<div class="login-box animated fadeInUp" id="Box_3" style="display:none;">
+			<h3 class="box_title">Let's learn more about you!</h3>
+			<div class="aButtons"><button type="submit" value="soccer" class="aButtons"><img src="images/people.svg" style="width:40px;height:40px;">Soccer</button></div>
+			<div class="aButtons"><button type="submit" value="soccer" class="aButtons"><img src="images/people.svg">Soccer</button></div>
+			<input type="text" id="Last_name" placeholder="Last Name">
+			<br/>
+			<input type="text" id="gender" placeholder="Gender">
+			<br/>
+			<input type="text" id="age" placeholder="Age">
+			<br/>
+			<button type="submit" onclick="#" class="button_color"><h3 class="buttontxt">ONWARD!</h3></button>
+			<br/>
+			
+		</div>		
 	</div>
+
 </body>
 
 <script>
@@ -60,6 +89,17 @@
 	$('#confirmpassword').blur(function() {
 		$('label[for="confirmpassword"]').removeClass('selected');
 	});
+
+	function newDiv() {
+		document.getElementById('Box_1').style.display = "none";
+		document.getElementById('Box_2').style.display = "block";
+		
+	}
+	function newDiv2() {
+		document.getElementById('Box_2').style.display = "none";
+		document.getElementById('Box_3').style.display = "block";
+		
+	}
 </script>
 
 </html>

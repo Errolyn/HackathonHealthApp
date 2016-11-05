@@ -2,7 +2,7 @@ body {
 	background: url("../images/IMG_0048.JPG") no-repeat center center fixed;
 	background-size: cover;
 	font-size: 16px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Poppins', sans-serif !important;
 	font-weight: 300;
 	margin: 0;
 	color: #666;
@@ -10,7 +10,7 @@ body {
 
 /* Typography */
 h1#title {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Poppins', sans-serif !important;
 	font-weight: 300;
 	font-size: 3.2em;
 	color: white;
@@ -31,10 +31,12 @@ h2 {
 	text-transform: uppercase;
 	color: #665851;
 	font-weight: 400;
-	letter-spacing: 1px;
 	font-size: 1.4em;
-	opacity: .9;
-	
+	margin-bottom: 0;
+}
+
+h3{
+	margin-top: 10px
 }
 
 a {
@@ -48,28 +50,34 @@ a:hover {
 
 p.small {
 	font-size: 0.8em;
-	margin: 20px 0 0;
+
 }
 
 
 /* Layout */
 .container {
 	margin: 0;	
+	opacity: 0.9;
+	
 }
+
+.container_two {
+	margin: 0;	
+	opacity: 0.9;
+	
+}
+
 
 .top {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	background: -moz-linear-gradient(top,  rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 80%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 80%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
 
-.login-box animated fadeInUp {
-	opacity: 0.8;
-}
 
 .login-box {
 	background-color: white;
@@ -81,8 +89,8 @@ p.small {
 	border-radius: 5px;
 	box-shadow: 0 5px 50px rgba(0,0,0,0.4);
 	text-align: center;
-
-
+	
+	
 }
 
 /*.login-box .box-header {
@@ -93,10 +101,13 @@ p.small {
 
 .welcome {
 	font-size: 2em;
-	margin-top: 10px;
-	opacity: .9;
+	padding-top: 10px;	
 }
 
+.box_title {
+	font-size: 1.5em;
+	padding-top: 20px;
+}
 .login-box label {
 	font-weight: 700;
 	font-size: .8em;
@@ -104,6 +115,7 @@ p.small {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	line-height: 2em;
+	
 }
 
 .login-box input {
@@ -113,6 +125,7 @@ p.small {
 	border-radius: 2px;
 	font-size: .9em;
 	color: #888;
+	
 }
 
 .login-box input:focus {
@@ -120,6 +133,7 @@ p.small {
 	border-color: #665851;
 	transition: 0.5s;
 	color: #665851;
+	
 }
 
 .login-box button {
@@ -127,27 +141,38 @@ p.small {
 	border: 0;
 	border-radius: 5px;
 	color: white;
-	opacity: 0.9;
+	
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 0.7em;
 	
-	background-color: #665851;
-	cursor:pointer;
+	
+	cursor: pointer;
 	outline: none;
 
 }
+
+.button_color {
+	background-color: #665851;
+}
+
+.aButtons {
+	width: 70px;
+	height: 70px;
+}
+
+
 
 .buttontxt {
 	color: white !important;
 }
 .login-box button:hover {
-	opacity: 0.4;
+	
 	transition: 0.5s;
 }
 
 .login-box button:hover {
-	opacity: 0.4;
+	
 	transition: 0.5s;
 }
 
@@ -166,3 +191,15 @@ p.small {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: 1s;
 }
+
+/*form switching*/
+/*#Box_1 {
+	visibility: visible;
+}
+
+#Box_2 {
+	visibility: hidden;
+}*/
+
+
+
