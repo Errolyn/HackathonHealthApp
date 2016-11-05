@@ -1,0 +1,6 @@
+c:\users\diyadutta\documents\visual studio 2012\Projects\GoBuddyAPI\GoBuddyAPI\bin\Debug\GoBuddyAPI.dll.config
+c:\users\diyadutta\documents\visual studio 2012\Projects\GoBuddyAPI\GoBuddyAPI\bin\Debug\GoBuddyAPI.dll
+c:\users\diyadutta\documents\visual studio 2012\Projects\GoBuddyAPI\GoBuddyAPI\bin\Debug\GoBuddyAPI.pdb
+c:\users\diyadutta\documents\visual studio 2012\Projects\GoBuddyAPI\GoBuddyAPI\obj\Debug\GoBuddyAPI.dll
+c:\users\diyadutta\documents\visual studio 2012\Projects\GoBuddyAPI\GoBuddyAPI\obj\Debug\GoBuddyAPI.pdb
+C:\Users\diyadutta\Documents\Visual Studio 2012\Projects\GoBuddyAPI\GoBuddyAPI\obj\Debug\GoBuddyAPI.csprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+c:\users\diyadutta\documents\visual studio 2012\Projects\GoBuddyAPI\GoBuddyAPI\bin\Release\GoBuddyAPI.dll.config
+c:\users\diyadutta\documents\visual studio 2012\Projects\GoBuddyAPI\GoBuddyAPI\bin\Release\GoBuddyAPI.dll
+c:\users\diyadutta\documents\visual studio 2012\Projects\GoBuddyAPI\GoBuddyAPI\bin\Release\GoBuddyAPI.pdb
+c:\users\diyadutta\documents\visual studio 2012\Projects\GoBuddyAPI\GoBuddyAPI\obj\Release\GoBuddyAPI.dll
+c:\users\diyadutta\documents\visual studio 2012\Projects\GoBuddyAPI\GoBuddyAPI\obj\Release\GoBuddyAPI.pdb
