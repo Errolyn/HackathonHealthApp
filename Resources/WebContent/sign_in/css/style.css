@@ -1,5 +1,5 @@
 body {
-	background: url("../images/EpnMhl1.png") no-repeat center center fixed;
+	background: url("../images/IMG_0048.JPG") no-repeat center center fixed;
 	background-size: cover;
 	font-size: 16px;
 	font-family: 'Lato', sans-serif;
@@ -16,24 +16,25 @@ h1#title {
 	color: white;
 	text-shadow: 0 0 10px rgba(0,0,0,0.8);
 	margin: 0 auto;
-	padding-top: 180px;
+	padding-top: 80px;
 	max-width: 300px;
 	text-align: center;
 	position: relative;
 	top: 0px;
 }
 
-h1#title span span {
+h1#title span {
 	font-weight: 400;
 }
 
 h2 {
 	text-transform: uppercase;
-	color: white;
+	color: #665851;
 	font-weight: 400;
 	letter-spacing: 1px;
 	font-size: 1.4em;
-	line-height: 2.8em;
+	opacity: .9;
+	
 }
 
 a {
@@ -53,7 +54,7 @@ p.small {
 
 /* Layout */
 .container {
-	margin: 0;
+	margin: 0;	
 }
 
 .top {
@@ -66,9 +67,13 @@ p.small {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
 
+.login-box animated fadeInUp {
+	opacity: 0.8;
+}
+
 .login-box {
 	background-color: white;
-	max-width: 340px;
+	max-width: 540px;
 	margin: 0 auto;
 	position: relative;
 	top: 80px;
@@ -76,12 +81,20 @@ p.small {
 	border-radius: 5px;
 	box-shadow: 0 5px 50px rgba(0,0,0,0.4);
 	text-align: center;
+
+
 }
 
-.login-box .box-header {
-	background-color: #665851;
+/*.login-box .box-header {
+	background-color: #3FC0EF;
 	margin-top: 0;
 	border-radius: 5px 5px 0 0;
+}*/
+
+.welcome {
+	font-size: 2em;
+	margin-top: 10px;
+	opacity: .9;
 }
 
 .login-box label {
@@ -112,25 +125,29 @@ p.small {
 .login-box button {
 	margin-top: 0px;
 	border: 0;
-	border-radius: 2px;
+	border-radius: 5px;
 	color: white;
-	padding: 10px;
+	opacity: 0.9;
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 0.7em;
-	letter-spacing: 1px;
+	
 	background-color: #665851;
 	cursor:pointer;
 	outline: none;
+
 }
 
+.buttontxt {
+	color: white !important;
+}
 .login-box button:hover {
-	opacity: 0.7;
+	opacity: 0.4;
 	transition: 0.5s;
 }
 
 .login-box button:hover {
-	opacity: 0.7;
+	opacity: 0.4;
 	transition: 0.5s;
 }
 

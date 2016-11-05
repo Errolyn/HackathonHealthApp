@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Sign In</title>
+	<title>Sign Up</title>
 
 	<!-- Google Fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
@@ -18,23 +18,21 @@
 <body>
 	<div class="container">
 		<div class="top">
-			<h1 id="title" class="hidden"><span id="logo">Health <span>Connection</span></span></h1>
+			<h1 id="title" class="hidden"><span id="logo">Health Connection</span></h1>
 		</div>
 		<div class="login-box animated fadeInUp">
-			<div class="box-header">
-				<h2>Log In</h2>
-			</div>
-			<label for="username">Username</label>
+			<h2 class="welcome">Welcome!</h2>
+			<h3>Want to find a group activity?</h3>
+			<p>Sign up with your email</p>
+			<input type="text" id="username" placeholder="Email">
 			<br/>
-			<input type="text" id="username">
+			<input type="password" id="password" placeholder="Create Password">
 			<br/>
-			<label for="password">Password</label>
+			<input type="confirmpassword" id="confirmpassword" placeholder="Confirm Password">
 			<br/>
-			<input type="password" id="password">
+			<button type="submit"><h3 class="buttontxt">SIGN UP</h3></button>
 			<br/>
-			<button type="submit">Sign In</button>
-			<br/>
-			<a href="#"><p class="small">Forgot your password?</p></a>
+			
 		</div>
 	</div>
 </body>
@@ -55,6 +53,12 @@
 	});
 	$('#password').blur(function() {
 		$('label[for="password"]').removeClass('selected');
+	});
+	$('#confirmpassword').focus(function() {
+		$('label[for="confirmpassword"]').addClass('selected');
+	});
+	$('#confirmpassword').blur(function() {
+		$('label[for="confirmpassword"]').removeClass('selected');
 	});
 </script>
 
